@@ -11,7 +11,7 @@ class Adivinanza:
         self.__letras: list[str] = list(palabra)
         self.__posiciones: list[bool] = [False] * len(self.__letras)
 
-    def adivinar(self, letra: str) -> [int]:
+    def adivinar(self, letra: str) -> list[int]:
         if letra not in self.__letras:
             return []
 
@@ -22,10 +22,10 @@ class Adivinanza:
                 self.__posiciones[i] = True
         return posiciones_donde_esta_la_letra
 
-    def obtener_letras(self) -> [str]:
+    def obtener_letras(self) -> list[str]:
         return self.__letras
 
-    def obtener_posiciones(self) -> [bool]:
+    def obtener_posiciones(self) -> list[bool]:
         return self.__posiciones
 
     def obtener_cantidad_posiciones(self) -> int:

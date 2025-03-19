@@ -45,7 +45,7 @@ class Juego:
         self.__intentos_realizados = self.calcular_intentos_permitidos()
         return self.__adivinanza.obtener_cantidad_posiciones()
 
-    def adivinar(self, letra: str) -> [int]:
+    def adivinar(self, letra: str) -> list[int]:
         """
             Intenta adivinar una letra de la palabra.
 
