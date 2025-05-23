@@ -1,0 +1,17 @@
+<ConfigScreen>
+    Label:
+        text: "Puedes elegir el nivel de dificultad"
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: "Fácil"
+            size_hint: 0.3 , 0.2
+            on_press: root.seleccionar_dificultad("facil")
+        Button:
+            text: "Medio"
+            size_hint: 0.3 , 0.2
+            on_press: root.seleccionar_dificultad("medio")
+        Button:
+            text: "Difícil"
+            size_hint: 0.3 , 0.2
+            on_press: root.seleccionar_dificultad("dificil")

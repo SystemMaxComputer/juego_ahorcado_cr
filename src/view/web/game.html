@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>El Ahorcadito</title>
+    <link rel="stylesheet" href="game.css"></link>
+    <script src="game.js">
+    </script>
+</head>
+<body>
+
+<div class="contenido-central">
+    <div class="mensaje">Juego del Ahorcadito</div>
+</div>
+<div class="palabra_layout">
+    <label>_</label>
+</div>
+
+<div class="zona_de_juego">
+    <input id='letra_input' type='text'>
+    <button onclick="realizarIntento()">Intentar</button>
+</div>
+
+<div class="contenido-central">
+    <div class="mensaje">Intentos restantes: &nbsp;</div>
+    <div class="mensaje" id="display_intentos">0/10</div>
+</div>
+
+</body>
+</html>

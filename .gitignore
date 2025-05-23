@@ -1,2 +1,4 @@
-src/model/__pycache__/
-src/view/__pycache__/
+.idea
+**/__pycache__/
+*.DS_Store
+

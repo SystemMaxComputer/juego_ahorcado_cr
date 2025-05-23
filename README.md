@@ -2,7 +2,7 @@
 
 ## 📖 Descripción
 
-**Ahorcado** es un juego clásico de palabras en el que un jugador debe adivinar una palabra oculta antes de que se
+**Ahorcado** es un clásico juego de palabras en el que un jugador debe adivinar una palabra oculta antes de que se
 agoten sus intentos.
 
 ## 📌 Reglas del Juego

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contenido-central {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje {
+    font-size: 20px;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+}
+
+.botones button {
+    flex: 1;
+    font-size: 18px;
+    background-color: #444;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 150px;
+}

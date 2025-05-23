@@ -1,0 +1,41 @@
+<GameScreen>
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 10
+
+        Label:
+            text: "Juego del Ahorcado"
+            font_size: 24
+            bold: True
+
+        BoxLayout:
+            id: palabra_layout
+            orientation: "horizontal"
+            Label:
+                text: "L1"
+            Label:
+                text: "L2"
+            Label:
+                text: "L3"
+            Label:
+                text: "L4"
+        BoxLayout:
+            orientation: "horizontal"
+            TextInput:
+                id: letra_input
+                hint_text: "Introduce una letra a adivinar"
+                multiline: False
+                write_tab: False  # Evita que se use el tab
+
+            Button:
+                text: "Intentar"
+                font_size: 24
+                on_press: root.comprobar_letra()
+        BoxLayout:
+            id: info_layout
+            orientation: "horizontal"
+            Label:
+                id: intentos_label
+                text: "Intentos restantes: 0"
+                font_size: 24

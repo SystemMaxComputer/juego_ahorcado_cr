@@ -1,0 +1,17 @@
+<MainScreen>
+    Label:
+        text: "Bienvenido al juego del Ahorcadito"
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: "Jugar"
+            size_hint: 0.3 , 0.2
+            on_press: root.abrir_pantalla_de_juego()
+        Button:
+            text: "Configurar"
+            size_hint: 0.3 , 0.2
+            on_press: root.abrir_pantalla_de_configuracion()
+        Button:
+            text: "Salir"
+            size_hint: 0.3 , 0.2
+            on_press: root.cerrar_juego()
